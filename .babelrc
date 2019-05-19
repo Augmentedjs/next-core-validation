@@ -6,16 +6,5 @@
       },
       "debug": true
     }]
-  ],
-  "plugins": [
-    ["transform-regenerator", {
-      "asyncGenerators": true,
-      "generators": true,
-      "async": true
-    }],
-    ["transform-runtime", {
-      "polyfill": false,
-      "regenerator": true
-    }]
   ]
 }
