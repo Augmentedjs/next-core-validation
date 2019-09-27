@@ -1,12 +1,11 @@
 {
   "name": "next-core-validation",
-  "version": "2.5.4",
+  "version": "2.5.5",
   "description": "The Augmented.js Next - Validation Framework.",
   "main": "dist/core-next-validation.js",
   "scripts": {
     "dev": "webpack --mode development --module-bind js=babel-loader --progress",
     "build": "webpack --mode production --module-bind js=babel-loader --progress",
-    "lint": "eslint ./src/index.js",
     "test": "mocha --require babel-core/register --require test/helper.js -c test/*Spec.js",
     "start": "node index.js",
     "docs": "rm -rf jsdoc && jsdoc ./src -r -d ./jsdoc/ -R ./README.md -t ./node_modules/foodoc/template -c ./jsdoc.conf.json -P ./package.json",
@@ -25,25 +24,21 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@babel/core": "^7.6.2",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
-    "babel-plugin-transform-regenerator": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
-    "eslint": "^5.16.0",
-    "eslint-config-kentcdodds": "^14.3.2",
     "foodoc": "0.0.9",
-    "jsdoc": "^3.6.2",
-    "jsdom": "^15.1.0",
-    "mocha": "^6.1.4",
+    "jsdoc": "^3.6.3",
+    "jsdom": "^15.1.1",
+    "mocha": "^6.2.0",
     "mocha-jsdom": "^2.0.0",
-    "webpack": "^4.31.0",
-    "webpack-cli": "^3.3.2"
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
   },
   "dependencies": {
-    "@babel/core": "^7.4.4",
-    "next-core-utilities": "^2.6.1"
+    "next-core-utilities": "^2.7.1"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/next-core-validation/issues"
