@@ -1,6 +1,6 @@
 {
   "name": "next-core-validation",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "The Augmented.js Next - Validation Framework.",
   "main": "dist/core-next-validation.js",
   "scripts": {

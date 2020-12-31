@@ -110,3 +110,5 @@ Genrate a schema from a set of data</p>
 ### Parameters
 
 -   `data` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** a dataset to produce a schema from
+-   `title`   (optional, default `"model"`)
+-   `description`   (optional, default `"Generated Schema"`)
