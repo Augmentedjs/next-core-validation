@@ -1,14 +1,16 @@
 {
   "name": "next-core-validation",
-  "version": "2.5.5",
+  "version": "3.0.0",
   "description": "The Augmented.js Next - Validation Framework.",
   "main": "dist/core-next-validation.js",
   "scripts": {
-    "dev": "webpack --mode development --module-bind js=babel-loader --progress",
-    "build": "webpack --mode production --module-bind js=babel-loader --progress",
-    "test": "mocha --require babel-core/register --require test/helper.js -c test/*Spec.js",
+    "dev": "webpack --mode development --progress",
+    "build": "webpack --mode production --progress",
+    "test": "mocha --require @babel/register --require test/helper.js -c test/*Spec.js",
+    "testthis": "mocha --require @babel/register --require test/helper.js",
     "start": "node index.js",
     "docs": "rm -rf jsdoc && jsdoc ./src -r -d ./jsdoc/ -R ./README.md -t ./node_modules/foodoc/template -c ./jsdoc.conf.json -P ./package.json",
+    "readme": "./node_modules/documentation/bin/documentation.js readme ./src/index.js -f md --section=API",
     "clean": "rm -rf node_modules",
     "reinstall": "npm run clean && npm install",
     "rebuild": "npm run clean && npm install && npm run build"
@@ -24,21 +26,24 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@babel/core": "^7.10.4",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.1.0",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "babel-loader": "^8.2.2",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "documentation": "^13.1.0",
     "foodoc": "0.0.9",
-    "jsdoc": "^3.6.4",
-    "jsdom": "^16.2.2",
-    "mocha": "^8.0.1",
+    "jsdoc": "^3.6.6",
+    "jsdom": "^16.4.0",
+    "mocha": "^8.2.1",
     "mocha-jsdom": "^2.0.0",
-    "webpack": "^4.43.0",
+    "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "next-core-utilities": "^2.9.0"
+    "next-core-utilities": "^3.3.0"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/next-core-validation/issues"

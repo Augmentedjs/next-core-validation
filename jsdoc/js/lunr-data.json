@@ -64,63 +64,12 @@
           "base",
           "build",
           "class",
-          "class.provid",
           "framework",
           "librari",
+          "provid",
           "valid",
           "validationframework",
           "wrapper"
-        ],
-        "ValidationFramework.html#getValidationMessages": [
-          "data",
-          "function",
-          "getvalidationmessag",
-          "schema",
-          "valid",
-          "validationframework#getvalidationmessag",
-          "via"
-        ],
-        "ValidationFramework.html#validate": [
-          "data",
-          "function",
-          "schema",
-          "valid",
-          "validationframework#valid",
-          "via"
-        ],
-        "ValidationFramework.html#clearSchemas": [
-          "clear",
-          "clearschema",
-          "function",
-          "schema",
-          "validationframework#clearschema"
-        ],
-        "ValidationFramework.html#generateSchema": [
-          "data",
-          "function",
-          "generateschema",
-          "model",
-          "schema",
-          "valid",
-          "validationframework#generateschema",
-          "via"
-        ],
-        "ValidationFramework.html#getSchema": [
-          "function",
-          "get",
-          "getschema",
-          "ident",
-          "schema",
-          "validationframework#getschema"
-        ],
-        "ValidationFramework.html#registerSchema": [
-          "framework",
-          "function",
-          "ident",
-          "regist",
-          "registerschema",
-          "schema",
-          "validationframework#registerschema"
         ],
         "ValidationFramework.html#supportsValidation": [
           "framework",
@@ -131,12 +80,63 @@
           "valid",
           "validationframework#supportsvalid"
         ],
+        "ValidationFramework.html#registerSchema": [
+          "framework",
+          "function",
+          "ident",
+          "regist",
+          "registerschema",
+          "schema",
+          "validationframework#registerschema"
+        ],
+        "ValidationFramework.html#getSchema": [
+          "function",
+          "get",
+          "getschema",
+          "ident",
+          "schema",
+          "validationframework#getschema"
+        ],
         "ValidationFramework.html#getSchemas": [
           "function",
           "get",
           "getschema",
           "schema",
           "validationframework#getschema"
+        ],
+        "ValidationFramework.html#clearSchemas": [
+          "clear",
+          "clearschema",
+          "function",
+          "schema",
+          "validationframework#clearschema"
+        ],
+        "ValidationFramework.html#validate": [
+          "data",
+          "function",
+          "schema",
+          "valid",
+          "validationframework#valid",
+          "via"
+        ],
+        "ValidationFramework.html#getValidationMessages": [
+          "data",
+          "function",
+          "getvalidationmessag",
+          "schema",
+          "valid",
+          "validationframework#getvalidationmessag",
+          "via"
+        ],
+        "ValidationFramework.html#generateSchema": [
+          "data",
+          "function",
+          "generateschema",
+          "model",
+          "schema",
+          "valid",
+          "validationframework#generateschema",
+          "via"
         ]
       },
       "length": 12
@@ -212,7 +212,7 @@
                                                                   "docs": {
                                                                     "ValidationFramework.html": {
                                                                       "ref": "ValidationFramework.html",
-                                                                      "tf": 4.545454545454546
+                                                                      "tf": 4.166666666666666
                                                                     }
                                                                   }
                                                                 }
@@ -259,7 +259,7 @@
                         "docs": {
                           "ValidationFramework.html": {
                             "ref": "ValidationFramework.html",
-                            "tf": 4.545454545454546
+                            "tf": 4.166666666666666
                           }
                         }
                       }
@@ -300,33 +300,7 @@
                     },
                     "ValidationFramework.html": {
                       "ref": "ValidationFramework.html",
-                      "tf": 110
-                    }
-                  },
-                  ".": {
-                    "docs": {},
-                    "p": {
-                      "docs": {},
-                      "r": {
-                        "docs": {},
-                        "o": {
-                          "docs": {},
-                          "v": {
-                            "docs": {},
-                            "i": {
-                              "docs": {},
-                              "d": {
-                                "docs": {
-                                  "ValidationFramework.html": {
-                                    "ref": "ValidationFramework.html",
-                                    "tf": 4.545454545454546
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
+                      "tf": 114.16666666666667
                     }
                   }
                 }
@@ -432,13 +406,13 @@
               "docs": {},
               "a": {
                 "docs": {
-                  "ValidationFramework.html#getValidationMessages": {
-                    "ref": "ValidationFramework.html#getValidationMessages",
-                    "tf": 12.5
-                  },
                   "ValidationFramework.html#validate": {
                     "ref": "ValidationFramework.html#validate",
                     "tf": 45.83333333333333
+                  },
+                  "ValidationFramework.html#getValidationMessages": {
+                    "ref": "ValidationFramework.html#getValidationMessages",
+                    "tf": 12.5
                   },
                   "ValidationFramework.html#generateSchema": {
                     "ref": "ValidationFramework.html#generateSchema",
@@ -476,13 +450,13 @@
                 "docs": {},
                 "t": {
                   "docs": {
-                    "ValidationFramework.html#getSchema": {
-                      "ref": "ValidationFramework.html#getSchema",
-                      "tf": 50
-                    },
                     "ValidationFramework.html#registerSchema": {
                       "ref": "ValidationFramework.html#registerSchema",
                       "tf": 33.33333333333333
+                    },
+                    "ValidationFramework.html#getSchema": {
+                      "ref": "ValidationFramework.html#getSchema",
+                      "tf": 50
                     }
                   }
                 }
@@ -520,6 +494,23 @@
                     "index.html": {
                       "ref": "index.html",
                       "tf": 110
+                    }
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "ValidationFramework.html#supportsValidation": {
+                        "ref": "ValidationFramework.html#supportsValidation",
+                        "tf": 12.5
+                      }
                     }
                   }
                 }
@@ -570,23 +561,6 @@
                   }
                 }
               }
-            },
-            "t": {
-              "docs": {},
-              "u": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "n": {
-                    "docs": {
-                      "ValidationFramework.html#supportsValidation": {
-                        "ref": "ValidationFramework.html#supportsValidation",
-                        "tf": 12.5
-                      }
-                    }
-                  }
-                }
-              }
             }
           }
         },
@@ -605,50 +579,6 @@
                       "index.html": {
                         "ref": "index.html",
                         "tf": 14
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "c": {
-            "docs": {},
-            "h": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "m": {
-                  "docs": {},
-                  "a": {
-                    "docs": {
-                      "ValidationFramework.html#getValidationMessages": {
-                        "ref": "ValidationFramework.html#getValidationMessages",
-                        "tf": 12.5
-                      },
-                      "ValidationFramework.html#validate": {
-                        "ref": "ValidationFramework.html#validate",
-                        "tf": 45.83333333333333
-                      },
-                      "ValidationFramework.html#clearSchemas": {
-                        "ref": "ValidationFramework.html#clearSchemas",
-                        "tf": 25
-                      },
-                      "ValidationFramework.html#generateSchema": {
-                        "ref": "ValidationFramework.html#generateSchema",
-                        "tf": 12.5
-                      },
-                      "ValidationFramework.html#getSchema": {
-                        "ref": "ValidationFramework.html#getSchema",
-                        "tf": 25
-                      },
-                      "ValidationFramework.html#registerSchema": {
-                        "ref": "ValidationFramework.html#registerSchema",
-                        "tf": 49.99999999999999
-                      },
-                      "ValidationFramework.html#getSchemas": {
-                        "ref": "ValidationFramework.html#getSchemas",
-                        "tf": 25
                       }
                     }
                   }
@@ -701,6 +631,50 @@
                 }
               }
             }
+          },
+          "c": {
+            "docs": {},
+            "h": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "m": {
+                  "docs": {},
+                  "a": {
+                    "docs": {
+                      "ValidationFramework.html#registerSchema": {
+                        "ref": "ValidationFramework.html#registerSchema",
+                        "tf": 49.99999999999999
+                      },
+                      "ValidationFramework.html#getSchema": {
+                        "ref": "ValidationFramework.html#getSchema",
+                        "tf": 25
+                      },
+                      "ValidationFramework.html#getSchemas": {
+                        "ref": "ValidationFramework.html#getSchemas",
+                        "tf": 25
+                      },
+                      "ValidationFramework.html#clearSchemas": {
+                        "ref": "ValidationFramework.html#clearSchemas",
+                        "tf": 25
+                      },
+                      "ValidationFramework.html#validate": {
+                        "ref": "ValidationFramework.html#validate",
+                        "tf": 45.83333333333333
+                      },
+                      "ValidationFramework.html#getValidationMessages": {
+                        "ref": "ValidationFramework.html#getValidationMessages",
+                        "tf": 12.5
+                      },
+                      "ValidationFramework.html#generateSchema": {
+                        "ref": "ValidationFramework.html#generateSchema",
+                        "tf": 12.5
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "g": {
@@ -736,6 +710,33 @@
                 "ValidationFramework.html#getSchemas": {
                   "ref": "ValidationFramework.html#getSchemas",
                   "tf": 25
+                }
+              },
+              "s": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "h": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "m": {
+                        "docs": {},
+                        "a": {
+                          "docs": {
+                            "ValidationFramework.html#getSchema": {
+                              "ref": "ValidationFramework.html#getSchema",
+                              "tf": 700
+                            },
+                            "ValidationFramework.html#getSchemas": {
+                              "ref": "ValidationFramework.html#getSchemas",
+                              "tf": 750
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               },
               "v": {
@@ -783,33 +784,6 @@
                                   }
                                 }
                               }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "s": {
-                "docs": {},
-                "c": {
-                  "docs": {},
-                  "h": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "m": {
-                        "docs": {},
-                        "a": {
-                          "docs": {
-                            "ValidationFramework.html#getSchema": {
-                              "ref": "ValidationFramework.html#getSchema",
-                              "tf": 700
-                            },
-                            "ValidationFramework.html#getSchemas": {
-                              "ref": "ValidationFramework.html#getSchemas",
-                              "tf": 750
                             }
                           }
                         }
@@ -912,7 +886,7 @@
                       "docs": {
                         "ValidationFramework.html": {
                           "ref": "ValidationFramework.html",
-                          "tf": 4.545454545454546
+                          "tf": 4.166666666666666
                         }
                       }
                     }
@@ -932,7 +906,7 @@
                 "docs": {
                   "ValidationFramework.html": {
                     "ref": "ValidationFramework.html",
-                    "tf": 9.090909090909092
+                    "tf": 8.333333333333332
                   }
                 }
               }
@@ -948,7 +922,7 @@
                   "docs": {
                     "ValidationFramework.html": {
                       "ref": "ValidationFramework.html",
-                      "tf": 4.545454545454546
+                      "tf": 4.166666666666666
                     }
                   }
                 }
@@ -976,15 +950,15 @@
                           "docs": {
                             "ValidationFramework.html": {
                               "ref": "ValidationFramework.html",
-                              "tf": 4.545454545454546
-                            },
-                            "ValidationFramework.html#registerSchema": {
-                              "ref": "ValidationFramework.html#registerSchema",
-                              "tf": 16.666666666666664
+                              "tf": 4.166666666666666
                             },
                             "ValidationFramework.html#supportsValidation": {
                               "ref": "ValidationFramework.html#supportsValidation",
                               "tf": 12.5
+                            },
+                            "ValidationFramework.html#registerSchema": {
+                              "ref": "ValidationFramework.html#registerSchema",
+                              "tf": 16.666666666666664
                             }
                           }
                         }
@@ -1009,39 +983,62 @@
                       "docs": {},
                       "n": {
                         "docs": {
-                          "ValidationFramework.html#getValidationMessages": {
-                            "ref": "ValidationFramework.html#getValidationMessages",
-                            "tf": 110
-                          },
-                          "ValidationFramework.html#validate": {
-                            "ref": "ValidationFramework.html#validate",
-                            "tf": 110
-                          },
-                          "ValidationFramework.html#clearSchemas": {
-                            "ref": "ValidationFramework.html#clearSchemas",
-                            "tf": 110
-                          },
-                          "ValidationFramework.html#generateSchema": {
-                            "ref": "ValidationFramework.html#generateSchema",
-                            "tf": 110
-                          },
-                          "ValidationFramework.html#getSchema": {
-                            "ref": "ValidationFramework.html#getSchema",
+                          "ValidationFramework.html#supportsValidation": {
+                            "ref": "ValidationFramework.html#supportsValidation",
                             "tf": 110
                           },
                           "ValidationFramework.html#registerSchema": {
                             "ref": "ValidationFramework.html#registerSchema",
                             "tf": 110
                           },
-                          "ValidationFramework.html#supportsValidation": {
-                            "ref": "ValidationFramework.html#supportsValidation",
+                          "ValidationFramework.html#getSchema": {
+                            "ref": "ValidationFramework.html#getSchema",
                             "tf": 110
                           },
                           "ValidationFramework.html#getSchemas": {
                             "ref": "ValidationFramework.html#getSchemas",
                             "tf": 110
+                          },
+                          "ValidationFramework.html#clearSchemas": {
+                            "ref": "ValidationFramework.html#clearSchemas",
+                            "tf": 110
+                          },
+                          "ValidationFramework.html#validate": {
+                            "ref": "ValidationFramework.html#validate",
+                            "tf": 110
+                          },
+                          "ValidationFramework.html#getValidationMessages": {
+                            "ref": "ValidationFramework.html#getValidationMessages",
+                            "tf": 110
+                          },
+                          "ValidationFramework.html#generateSchema": {
+                            "ref": "ValidationFramework.html#generateSchema",
+                            "tf": 110
                           }
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "p": {
+          "docs": {},
+          "r": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "v": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "d": {
+                    "docs": {
+                      "ValidationFramework.html": {
+                        "ref": "ValidationFramework.html",
+                        "tf": 4.166666666666666
                       }
                     }
                   }
@@ -1062,22 +1059,22 @@
                   "docs": {
                     "ValidationFramework.html": {
                       "ref": "ValidationFramework.html",
-                      "tf": 9.090909090909092
+                      "tf": 8.333333333333332
                     },
-                    "ValidationFramework.html#getValidationMessages": {
-                      "ref": "ValidationFramework.html#getValidationMessages",
+                    "ValidationFramework.html#supportsValidation": {
+                      "ref": "ValidationFramework.html#supportsValidation",
                       "tf": 12.5
                     },
                     "ValidationFramework.html#validate": {
                       "ref": "ValidationFramework.html#validate",
                       "tf": 695.8333333333334
                     },
-                    "ValidationFramework.html#generateSchema": {
-                      "ref": "ValidationFramework.html#generateSchema",
+                    "ValidationFramework.html#getValidationMessages": {
+                      "ref": "ValidationFramework.html#getValidationMessages",
                       "tf": 12.5
                     },
-                    "ValidationFramework.html#supportsValidation": {
-                      "ref": "ValidationFramework.html#supportsValidation",
+                    "ValidationFramework.html#generateSchema": {
+                      "ref": "ValidationFramework.html#generateSchema",
                       "tf": 12.5
                     }
                   },
@@ -1116,181 +1113,37 @@
                                               },
                                               "#": {
                                                 "docs": {},
-                                                "g": {
+                                                "s": {
                                                   "docs": {},
-                                                  "e": {
+                                                  "u": {
                                                     "docs": {},
-                                                    "t": {
+                                                    "p": {
                                                       "docs": {},
-                                                      "v": {
+                                                      "p": {
                                                         "docs": {},
-                                                        "a": {
+                                                        "o": {
                                                           "docs": {},
-                                                          "l": {
-                                                            "docs": {},
-                                                            "i": {
-                                                              "docs": {},
-                                                              "d": {
-                                                                "docs": {},
-                                                                "a": {
-                                                                  "docs": {},
-                                                                  "t": {
-                                                                    "docs": {},
-                                                                    "i": {
-                                                                      "docs": {},
-                                                                      "o": {
-                                                                        "docs": {},
-                                                                        "n": {
-                                                                          "docs": {},
-                                                                          "m": {
-                                                                            "docs": {},
-                                                                            "e": {
-                                                                              "docs": {},
-                                                                              "s": {
-                                                                                "docs": {},
-                                                                                "s": {
-                                                                                  "docs": {},
-                                                                                  "a": {
-                                                                                    "docs": {},
-                                                                                    "g": {
-                                                                                      "docs": {
-                                                                                        "ValidationFramework.html#getValidationMessages": {
-                                                                                          "ref": "ValidationFramework.html#getValidationMessages",
-                                                                                          "tf": 1150
-                                                                                        }
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      },
-                                                      "s": {
-                                                        "docs": {},
-                                                        "c": {
-                                                          "docs": {},
-                                                          "h": {
-                                                            "docs": {},
-                                                            "e": {
-                                                              "docs": {},
-                                                              "m": {
-                                                                "docs": {},
-                                                                "a": {
-                                                                  "docs": {
-                                                                    "ValidationFramework.html#getSchema": {
-                                                                      "ref": "ValidationFramework.html#getSchema",
-                                                                      "tf": 1150
-                                                                    },
-                                                                    "ValidationFramework.html#getSchemas": {
-                                                                      "ref": "ValidationFramework.html#getSchemas",
-                                                                      "tf": 1150
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    },
-                                                    "n": {
-                                                      "docs": {},
-                                                      "e": {
-                                                        "docs": {},
-                                                        "r": {
-                                                          "docs": {},
-                                                          "a": {
+                                                          "r": {
                                                             "docs": {},
                                                             "t": {
                                                               "docs": {},
-                                                              "e": {
+                                                              "s": {
                                                                 "docs": {},
-                                                                "s": {
+                                                                "v": {
                                                                   "docs": {},
-                                                                  "c": {
+                                                                  "a": {
                                                                     "docs": {},
-                                                                    "h": {
+                                                                    "l": {
                                                                       "docs": {},
-                                                                      "e": {
+                                                                      "i": {
                                                                         "docs": {},
-                                                                        "m": {
-                                                                          "docs": {},
-                                                                          "a": {
-                                                                            "docs": {
-                                                                              "ValidationFramework.html#generateSchema": {
-                                                                                "ref": "ValidationFramework.html#generateSchema",
-                                                                                "tf": 1150
-                                                                              }
+                                                                        "d": {
+                                                                          "docs": {
+                                                                            "ValidationFramework.html#supportsValidation": {
+                                                                              "ref": "ValidationFramework.html#supportsValidation",
+                                                                              "tf": 1150
                                                                             }
                                                                           }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "v": {
-                                                  "docs": {},
-                                                  "a": {
-                                                    "docs": {},
-                                                    "l": {
-                                                      "docs": {},
-                                                      "i": {
-                                                        "docs": {},
-                                                        "d": {
-                                                          "docs": {
-                                                            "ValidationFramework.html#validate": {
-                                                              "ref": "ValidationFramework.html#validate",
-                                                              "tf": 1150
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "c": {
-                                                  "docs": {},
-                                                  "l": {
-                                                    "docs": {},
-                                                    "e": {
-                                                      "docs": {},
-                                                      "a": {
-                                                        "docs": {},
-                                                        "r": {
-                                                          "docs": {},
-                                                          "s": {
-                                                            "docs": {},
-                                                            "c": {
-                                                              "docs": {},
-                                                              "h": {
-                                                                "docs": {},
-                                                                "e": {
-                                                                  "docs": {},
-                                                                  "m": {
-                                                                    "docs": {},
-                                                                    "a": {
-                                                                      "docs": {
-                                                                        "ValidationFramework.html#clearSchemas": {
-                                                                          "ref": "ValidationFramework.html#clearSchemas",
-                                                                          "tf": 1150
                                                                         }
                                                                       }
                                                                     }
@@ -1351,35 +1204,80 @@
                                                     }
                                                   }
                                                 },
-                                                "s": {
+                                                "g": {
                                                   "docs": {},
-                                                  "u": {
+                                                  "e": {
                                                     "docs": {},
-                                                    "p": {
+                                                    "t": {
                                                       "docs": {},
-                                                      "p": {
+                                                      "s": {
                                                         "docs": {},
-                                                        "o": {
+                                                        "c": {
                                                           "docs": {},
-                                                          "r": {
+                                                          "h": {
                                                             "docs": {},
-                                                            "t": {
+                                                            "e": {
                                                               "docs": {},
-                                                              "s": {
+                                                              "m": {
                                                                 "docs": {},
-                                                                "v": {
+                                                                "a": {
+                                                                  "docs": {
+                                                                    "ValidationFramework.html#getSchema": {
+                                                                      "ref": "ValidationFramework.html#getSchema",
+                                                                      "tf": 1150
+                                                                    },
+                                                                    "ValidationFramework.html#getSchemas": {
+                                                                      "ref": "ValidationFramework.html#getSchemas",
+                                                                      "tf": 1150
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "v": {
+                                                        "docs": {},
+                                                        "a": {
+                                                          "docs": {},
+                                                          "l": {
+                                                            "docs": {},
+                                                            "i": {
+                                                              "docs": {},
+                                                              "d": {
+                                                                "docs": {},
+                                                                "a": {
                                                                   "docs": {},
-                                                                  "a": {
+                                                                  "t": {
                                                                     "docs": {},
-                                                                    "l": {
+                                                                    "i": {
                                                                       "docs": {},
-                                                                      "i": {
+                                                                      "o": {
                                                                         "docs": {},
-                                                                        "d": {
-                                                                          "docs": {
-                                                                            "ValidationFramework.html#supportsValidation": {
-                                                                              "ref": "ValidationFramework.html#supportsValidation",
-                                                                              "tf": 1150
+                                                                        "n": {
+                                                                          "docs": {},
+                                                                          "m": {
+                                                                            "docs": {},
+                                                                            "e": {
+                                                                              "docs": {},
+                                                                              "s": {
+                                                                                "docs": {},
+                                                                                "s": {
+                                                                                  "docs": {},
+                                                                                  "a": {
+                                                                                    "docs": {},
+                                                                                    "g": {
+                                                                                      "docs": {
+                                                                                        "ValidationFramework.html#getValidationMessages": {
+                                                                                          "ref": "ValidationFramework.html#getValidationMessages",
+                                                                                          "tf": 1150
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
                                                                             }
                                                                           }
                                                                         }
@@ -1388,6 +1286,105 @@
                                                                   }
                                                                 }
                                                               }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "n": {
+                                                      "docs": {},
+                                                      "e": {
+                                                        "docs": {},
+                                                        "r": {
+                                                          "docs": {},
+                                                          "a": {
+                                                            "docs": {},
+                                                            "t": {
+                                                              "docs": {},
+                                                              "e": {
+                                                                "docs": {},
+                                                                "s": {
+                                                                  "docs": {},
+                                                                  "c": {
+                                                                    "docs": {},
+                                                                    "h": {
+                                                                      "docs": {},
+                                                                      "e": {
+                                                                        "docs": {},
+                                                                        "m": {
+                                                                          "docs": {},
+                                                                          "a": {
+                                                                            "docs": {
+                                                                              "ValidationFramework.html#generateSchema": {
+                                                                                "ref": "ValidationFramework.html#generateSchema",
+                                                                                "tf": 1150
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "c": {
+                                                  "docs": {},
+                                                  "l": {
+                                                    "docs": {},
+                                                    "e": {
+                                                      "docs": {},
+                                                      "a": {
+                                                        "docs": {},
+                                                        "r": {
+                                                          "docs": {},
+                                                          "s": {
+                                                            "docs": {},
+                                                            "c": {
+                                                              "docs": {},
+                                                              "h": {
+                                                                "docs": {},
+                                                                "e": {
+                                                                  "docs": {},
+                                                                  "m": {
+                                                                    "docs": {},
+                                                                    "a": {
+                                                                      "docs": {
+                                                                        "ValidationFramework.html#clearSchemas": {
+                                                                          "ref": "ValidationFramework.html#clearSchemas",
+                                                                          "tf": 1150
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "v": {
+                                                  "docs": {},
+                                                  "a": {
+                                                    "docs": {},
+                                                    "l": {
+                                                      "docs": {},
+                                                      "i": {
+                                                        "docs": {},
+                                                        "d": {
+                                                          "docs": {
+                                                            "ValidationFramework.html#validate": {
+                                                              "ref": "ValidationFramework.html#validate",
+                                                              "tf": 1150
                                                             }
                                                           }
                                                         }
@@ -1418,12 +1415,12 @@
             "docs": {},
             "a": {
               "docs": {
-                "ValidationFramework.html#getValidationMessages": {
-                  "ref": "ValidationFramework.html#getValidationMessages",
-                  "tf": 12.5
-                },
                 "ValidationFramework.html#validate": {
                   "ref": "ValidationFramework.html#validate",
+                  "tf": 12.5
+                },
+                "ValidationFramework.html#getValidationMessages": {
+                  "ref": "ValidationFramework.html#getValidationMessages",
                   "tf": 12.5
                 },
                 "ValidationFramework.html#generateSchema": {
@@ -1450,7 +1447,7 @@
                       "docs": {
                         "ValidationFramework.html": {
                           "ref": "ValidationFramework.html",
-                          "tf": 4.545454545454546
+                          "tf": 4.166666666666666
                         }
                       }
                     }
@@ -1490,7 +1487,6 @@
       "base",
       "build",
       "class",
-      "class.provid",
       "clear",
       "clearschema",
       "core",
@@ -1511,6 +1507,7 @@
       "list:class",
       "model",
       "next",
+      "provid",
       "readm",
       "regist",
       "registerschema",
@@ -1579,68 +1576,8 @@
       "name": "ValidationFramework",
       "tags": "ValidationFramework",
       "summary": "",
-      "description": "Augmented.ValidationFramework -The Validation Framework Base Wrapper Class.Provides abstraction for base validation build-in library",
+      "description": "Augmented.ValidationFramework - The Validation Framework Base Wrapper Class. Provides abstraction for base validation build-in library",
       "body": ""
-    },
-    "ValidationFramework.html#getValidationMessages": {
-      "id": "ValidationFramework.html#getValidationMessages",
-      "kind": "function",
-      "title": "getValidationMessages()",
-      "longname": "ValidationFramework#getValidationMessages",
-      "name": "getValidationMessages",
-      "tags": "ValidationFramework#getValidationMessages getValidationMessages",
-      "summary": "",
-      "description": "Validates data via a schema"
-    },
-    "ValidationFramework.html#validate": {
-      "id": "ValidationFramework.html#validate",
-      "kind": "function",
-      "title": "validate( data, schema )",
-      "longname": "ValidationFramework#validate",
-      "name": "validate",
-      "tags": "ValidationFramework#validate validate",
-      "summary": "",
-      "description": "Validates data via a schema"
-    },
-    "ValidationFramework.html#clearSchemas": {
-      "id": "ValidationFramework.html#clearSchemas",
-      "kind": "function",
-      "title": "clearSchemas()",
-      "longname": "ValidationFramework#clearSchemas",
-      "name": "clearSchemas",
-      "tags": "ValidationFramework#clearSchemas clearSchemas",
-      "summary": "",
-      "description": "Clears all schemas"
-    },
-    "ValidationFramework.html#generateSchema": {
-      "id": "ValidationFramework.html#generateSchema",
-      "kind": "function",
-      "title": "generateSchema( model )",
-      "longname": "ValidationFramework#generateSchema",
-      "name": "generateSchema",
-      "tags": "ValidationFramework#generateSchema generateSchema",
-      "summary": "",
-      "description": "Validates data via a schema"
-    },
-    "ValidationFramework.html#getSchema": {
-      "id": "ValidationFramework.html#getSchema",
-      "kind": "function",
-      "title": "getSchema( identity )",
-      "longname": "ValidationFramework#getSchema",
-      "name": "getSchema",
-      "tags": "ValidationFramework#getSchema getSchema",
-      "summary": "",
-      "description": "Gets a schema"
-    },
-    "ValidationFramework.html#registerSchema": {
-      "id": "ValidationFramework.html#registerSchema",
-      "kind": "function",
-      "title": "registerSchema( identity, schema )",
-      "longname": "ValidationFramework#registerSchema",
-      "name": "registerSchema",
-      "tags": "ValidationFramework#registerSchema registerSchema",
-      "summary": "",
-      "description": "Registers a schema to the Framework"
     },
     "ValidationFramework.html#supportsValidation": {
       "id": "ValidationFramework.html#supportsValidation",
@@ -1652,6 +1589,26 @@
       "summary": "",
       "description": "Returns if the framework supports validation"
     },
+    "ValidationFramework.html#registerSchema": {
+      "id": "ValidationFramework.html#registerSchema",
+      "kind": "function",
+      "title": "registerSchema( identity, schema )",
+      "longname": "ValidationFramework#registerSchema",
+      "name": "registerSchema",
+      "tags": "ValidationFramework#registerSchema registerSchema",
+      "summary": "",
+      "description": "Registers a schema to the Framework"
+    },
+    "ValidationFramework.html#getSchema": {
+      "id": "ValidationFramework.html#getSchema",
+      "kind": "function",
+      "title": "getSchema( identity )",
+      "longname": "ValidationFramework#getSchema",
+      "name": "getSchema",
+      "tags": "ValidationFramework#getSchema getSchema",
+      "summary": "",
+      "description": "Gets a schema"
+    },
     "ValidationFramework.html#getSchemas": {
       "id": "ValidationFramework.html#getSchemas",
       "kind": "function",
@@ -1661,6 +1618,46 @@
       "tags": "ValidationFramework#getSchemas getSchemas",
       "summary": "",
       "description": "Gets all schemas"
+    },
+    "ValidationFramework.html#clearSchemas": {
+      "id": "ValidationFramework.html#clearSchemas",
+      "kind": "function",
+      "title": "clearSchemas()",
+      "longname": "ValidationFramework#clearSchemas",
+      "name": "clearSchemas",
+      "tags": "ValidationFramework#clearSchemas clearSchemas",
+      "summary": "",
+      "description": "Clears all schemas"
+    },
+    "ValidationFramework.html#validate": {
+      "id": "ValidationFramework.html#validate",
+      "kind": "function",
+      "title": "validate( data, schema )",
+      "longname": "ValidationFramework#validate",
+      "name": "validate",
+      "tags": "ValidationFramework#validate validate",
+      "summary": "",
+      "description": "Validates data via a schema"
+    },
+    "ValidationFramework.html#getValidationMessages": {
+      "id": "ValidationFramework.html#getValidationMessages",
+      "kind": "function",
+      "title": "getValidationMessages()",
+      "longname": "ValidationFramework#getValidationMessages",
+      "name": "getValidationMessages",
+      "tags": "ValidationFramework#getValidationMessages getValidationMessages",
+      "summary": "",
+      "description": "Validates data via a schema"
+    },
+    "ValidationFramework.html#generateSchema": {
+      "id": "ValidationFramework.html#generateSchema",
+      "kind": "function",
+      "title": "generateSchema( model )",
+      "longname": "ValidationFramework#generateSchema",
+      "name": "generateSchema",
+      "tags": "ValidationFramework#generateSchema generateSchema",
+      "summary": "",
+      "description": "Validates data via a schema"
     }
   }
 }
